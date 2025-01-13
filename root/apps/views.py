@@ -44,5 +44,4 @@ class LoginView(FormView):
         else:
             form.add_error(None,'invalid username or password')
             return self.form_invalid(form)
-
-
+        
