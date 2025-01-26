@@ -36,7 +36,8 @@ To get this project up and running on your local machine, follow these steps:
     python manage.py createsuperuser
 
 6.**Start the development server:**
-
+                              
+    cd root
     python manage.py runserver
 
 
