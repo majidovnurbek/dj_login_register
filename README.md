@@ -1,25 +1,44 @@
-# Django Login and Register Project
+# Django Project
 
-This project provides user registration and login functionalities using Django.
-
-## Features
-
-- **User Registration**: Allows new users to sign up.
-- **User Login**: Enables existing users to log in.
-- **User Logout**: Allows users to log out of the system.
-- **Secure Password Handling**: Uses Django's built-in authentication system.
-- **Form Validation**: Includes basic form validation for user inputs.
+This project is django login register 
 
 ## Getting Started
+To get this project up and running on your local machine, follow these steps:
 
-### Prerequisites
 
-- Python 3.x
-- Django (installed via `requirements.txt`)
+## Technologies
+- Python 
+- Django 
+- Postgresql
 
-### Installation Steps
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/majidovnurbek/dj_login_register.git
-   cd dj_login_register
+
+### Installation
+
+1. **Clone the repository:**
+
+    ```bash
+    https://github.com/majidovnurbek/dj_login_register.git
+
+2.**Create a virtual environment (optional):**
+
+    python -m venv venv
+3.**Install the required dependencies:**
+
+    pip install -r requirements.txt
+
+4.**Create the database and apply migrations:**
+
+    python manage.py migrate
+
+5.**Create a superuser (optional):**
+
+    python manage.py createsuperuser
+
+6.**Start the development server:**
+
+    python manage.py runserver
+
+
+
+
